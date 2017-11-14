@@ -23,7 +23,6 @@ Most of the datasets used are likely more complex than this, but here we just wa
 
 ## Results
 
-### Matlab
 Matlab             |  Python Matplotlib
 :-------------------------:|:-------------------------:
 ![](plots/matlab_polarplot.jpg)  |  ![](plots/matlab_polarplot.jpg)
@@ -32,7 +31,7 @@ Seaborn           |  R
 :-------------------------:|:-------------------------:
 ![](plots/matlab_polarplot.jpg)  |  ![](plots/matlab_polarplot.jpg)
 
-Just placeholders for now. 
+Just placeholders for now.
 
 ## Code Snippets for creation of Test Data
 ```
