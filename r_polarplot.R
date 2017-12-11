@@ -9,7 +9,7 @@ polar_df = data.frame(theta, rho)
 
 # Plot with ggplot2
 library(ggplot2)
-ggplot(data=p_df, aes(x=theta, y=rho)) + coord_polar(start=pi/2) + geom_line() + 
+ggplot(data=polar_df, aes(x=theta, y=rho)) + coord_polar(start=-pi/2, direction = -1) + geom_line() + 
   scale_x_continuous(breaks=seq(0, pi*2-pi/4, by=pi/4), labels=c('0','45','90', '135','180', '225', '270','315')) + 
   theme_bw() + theme(axis.ticks.y = element_blank(), axis.text.y = element_blank())
 
