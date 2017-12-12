@@ -25,11 +25,11 @@ Most of the datasets used are likely more complex than this, but here we just wa
 
 Matlab             |  Python Matplotlib
 :-------------------------:|:-------------------------:
-![](plots/matlab_polarplot.jpg)  |  ![](plots/matplotlib_polarplot.png)
+<p align="center"><img src="plots/matlab_polarplot.jpg" width="480"></p> |  <p align="center"><img src="plots/matplotlib_polarplot.png" width="480"></p>
 
 xkcd           |  R
 :-------------------------:|:-------------------------:
-![](plots/xkcd_polarplot.png)  |  ![](plots/r_polarplot.jpg)
+<p align="center"><img src="plots/xkcd_polarplot.png" width="480"></p>  |  <p align="center"><img src="plots/r_polarplot.jpg" width="480"></p>
 
 ## Code Snippets for creation of Test Data
 ```
