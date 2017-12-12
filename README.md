@@ -25,11 +25,11 @@ Most of the datasets used are likely more complex than this, but here we just wa
 
 Matlab             |  Python Matplotlib
 :-------------------------:|:-------------------------:
-<img src="plots/matlab_polarplot.jpg" width="280">| <img src="plots/matplotlib_polarplot.png" width="280">
+<img src="plots/matlab_polarplot.jpg" width="380">| <img src="plots/matplotlib_polarplot.png" width="380">
 
 xkcd           |  R
 :-------------------------:|:-------------------------:
-<img src="plots/xkcd_polarplot.png" width="280">  |  <img src="plots/r_polarplot.jpg" width="280">
+<img src="plots/xkcd_polarplot.png" width="380">  |  <img src="plots/r_polarplot.jpg" width="380">
 
 ## Code Snippets for creation of Test Data
 ```
