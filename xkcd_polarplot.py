@@ -5,6 +5,7 @@ plt.xkcd()
 def matplotlib_polarplot(theta, rho, save):
     ax = plt.subplot(111, projection='polar')
     ax.plot(theta, rho)
+    ax.grid(True, linewidth=1)
 
     if save:
         plt.savefig('plots/xkcd_polarplot')
