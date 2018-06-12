@@ -16,17 +16,21 @@ p <- ggplot(data = polar_df,
   coord_polar(start = -pi/2,
               direction = -1) + 
   geom_vline(xintercept = seq(0, pi * 2 - pi/4, by = pi/4),
-             colour = "grey90",
+             colour = "grey60",
              size = 0.2) +
-  geom_hline(yintercept = seq(0, 200, by = 50),
-             colour = "grey90",
+  geom_hline(yintercept = seq(0, 150, by = 50),
+             colour = "grey60",
              size = 0.2) +
+  geom_hline(yintercept = 200,
+             colour = "black",
+             size = 1.2) +
   geom_line(colour = "steelblue",
             size = 2) +
   scale_x_continuous(breaks = seq(0, pi * 2 - pi/4, by = pi/4),
                      labels = c('0','45','90', '135','180',
                                 '225', '270','315')) +
-  scale_y_continuous(limits = c(0, 200), breaks = seq(0, 200, by = 50)) +
+  scale_y_continuous(limits = c(0, 200),
+                     breaks = seq(0, 150, by = 50)) +
   theme_bw() + 
   theme(axis.title = element_blank(),
         axis.ticks.y = element_blank(),
@@ -42,7 +46,7 @@ p <- ggplot(data = polar_df,
             size = 5)
 
 if (save) {
-  ggsave('r_polarplot.jpg',
+  ggsave('//home.ansatt.ntnu.no/ignatiop/Documents/GitHub/polar_plots/plots/r_polarplot.jpg',
          plot = p,
          dpi = 700)
 } else {
