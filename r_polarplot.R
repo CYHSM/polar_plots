@@ -46,7 +46,7 @@ p <- ggplot(data = polar_df,
             size = 5)
 
 if (save) {
-  ggsave('//home.ansatt.ntnu.no/ignatiop/Documents/GitHub/polar_plots/plots/r_polarplot.jpg',
+  ggsave('r_polarplot.jpg',
          plot = p,
          dpi = 700)
 } else {
